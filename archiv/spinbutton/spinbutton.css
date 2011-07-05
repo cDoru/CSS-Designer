@@ -1,0 +1,21 @@
+.spinbutton > span {
+    position:   relative;
+    left:       0px;
+    top:        1px;
+}
+
+.spinbutton > span > * {
+    position:   absolute;
+    left:       0px;
+    height:     66%;
+    padding:    0px;
+    padding-bottom: 1px;
+    font-size:  6px;
+    border:     1px outset grey;
+    top:        -3px;
+}
+
+.spinbutton > span > input + input {
+    top:        auto;
+    bottom:     -2px;
+}

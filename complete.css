@@ -1,0 +1,98 @@
+COLOR = COLOR_GRAB | COLOR_NAME | COLOR_CHOOSE
+URL = PASTE | LOCAL
+X = xUNIT
+UNIT = em | px | el | %
+
+background
+    background-color        COLOR
+    background-image        URL | transparent
+    background-position     ((top | center | bottom) (left, center, right)) | (X X)
+    background-attachment   scoll | fixed
+    background-repeat       repeat | repeat-x | repeat-y | no-repeat
+
+border(|-(left|right|top|bottom)
+    border-color            COLOR
+    border-style            none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset
+    border-width            X | (thin | medium | thick)
+
+clear                       left | right | both | none
+cursor                      URL | (auto | crosshair | default | pointer | move |  text | wait | help | (e|ne|n|nw|w|sw|s|se)resize)
+display                     none | inline | block | list-item | run-in | compact | marker | inline-table |
+                                 | table(|-((row|column)(|-group) | -header-group | -footer-group | -cell | -caption))
+float                       left | right | none
+position                    static | relative | absolute | fixed
+visibility                  visible | hidden | collapse
+
+height                      X | auto
+max-height                  X | none
+min-height                  X | none
+width                       X | auto
+max-width                   X | none
+min-width                   X | none
+line-height                 X | normal
+
+font                        + | (caption | icon | menu | message-box | small-caption | status-bar)
+    font-family             FAMILY-NAME | generic-family
+    font-size               X | (xx-|x-|)(small|large) | medium | (larg|small)er
+    font-size-adjust        X | none
+    font-stretch            normal | wider | narrower | (ultra-|extra-|semi-)(condensed|expanded)
+    font-style              normal | italic | oblique
+    font-variant            normal | small-caps
+    font-weight             normal | (light|bold)(er) | (1-9)00
+
+content                     URL | (counter(|s)\(name(|, list-style-type\), attr\(X\), (no|)(open|close)-quote
+counter-increment           none | IDENTIFIER NUMBER
+counter-reset               none | IDENTIFIER NUMBER
+quotes                      none | STRING STRING
+
+list-style
+    list-style-image        none | URL
+    list-style-position     inside | outside
+    list-style-type         none | (disc | circle | square) | (decimal(|-leading-zero) | (lower|upper)-(roman|alpha|latin)
+                                 | lower-greek | hebrew | armenian | georgian | cjk-ideographic | (hiragana|katakana)(|-iroha)
+marker-offset               X | auto
+
+margin
+    margin-bottom           X | auto
+    margin-left             X | auto
+    margin-right            X | auto
+    margin-top              X | auto
+
+outline
+    outline-color           COLOR | invert
+    outline-style           none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset
+    outline-width           X | (thin | medium | thick)
+
+padding
+    padding-bottom          X | auto
+    padding-left            X | auto
+    padding-right           X | auto
+    padding-top             X | auto
+
+left                        X | auto
+right                       X | auto
+top                         X | auto
+bottom                      X | auto
+clip                        shape | auto
+overflow                    visible | hidden | scroll | auto
+vertical-align              X | baseline | sub | super | top | text-top | middle | bottom | text-bottom 
+z-index                     X | auto
+
+border-collapse             collapse | separate
+border-spacing              X X
+caption-side                top | bottom | left | right
+empty-cells                 show | hide
+table-layout                auto | fixed
+
+
+color                       COLOR
+direction                   ltr | rtl
+letter-spacing              X | normal
+text-align                  left | right | center | justify
+text-decoration             none | underline | overline | line-through | blink
+text-indent                 X
+text-shadow                 none | COLOR | X
+text-transform              none | capitalize | uppercase | lowercase
+unicode-bidi                normal | embed | bidi-override
+white-space                 normal | pre | nowrap
+word-spacing                X | normal

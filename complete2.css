@@ -1,0 +1,140 @@
+{
+    "helper" : {
+        "COLOR": "COLOR_GRAB | COLOR_NAME | COLOR_CHOOSE",
+        "URL":  "PASTE | LOCAL",
+        "X":    function (mod, dels) {
+            return {
+                "type":  "Number",
+                "Mods":  (typeOf(mod) == 'array')?mod:[mod],
+                "Units": JSON.unit
+            };
+        },
+        "unit": ["px", "em", "ex", "%", "cm", "mm", "in", "pt", "pc"],
+        "border-width-mods": ["thin", "medium", "thick"],
+        "border-style-mods": ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"]
+    },
+
+    "background":   {
+        "color":        COLOR
+        "image":        URL | transparent
+        "position":     ((top | center | bottom) (left, center, right)) | (X X)
+        "attachment":   ["scoll", "fixed"],
+        "repeat":       ["repeat", "repeat-x", "repeat-y", "no-repeat"]
+    },
+
+    "border":       {
+        "self":         {
+            "color":        COLOR,
+            "style":        JSON.border-style-mods,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "left":         {
+            "color":        COLOR,
+            "style":        JSON.border-style-mods,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "right":        {
+            "color":        COLOR,
+            "style":        JSON.border-style-mods,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "top":          {
+            "color":        COLOR,
+            "style":        JSON.border-style-mods,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "bottom":       {
+            "color":        COLOR,
+            "style":        JSON.border-style-mods,
+            "width":        JSON.X(JSON.border-mods),
+        },
+    }
+
+    "clear":        ["left", "right", "both", "none"],
+    "cursor":       URL | (auto | crosshair | default | pointer | move |  text | wait | help | (e|ne|n|nw|w|sw|s|se)resize)
+    "display":      ["none", "inline", "block", "list-item", "run-in", "compact", "marker", "inline-table"],
+    "float":        ["left", "right", "none"],
+    "position":     ["static", "relative", "absolute", "fixed"],
+    "visibility":   ["visible", "hidden", "collapse"],
+
+    "height":       X | auto
+    "max-height":   X | none
+    "min-height":   X | none
+    "width":        X | auto
+    "max-width":    X | none
+    "min-width":    X | none
+    "line-height":  X | normal
+    
+    "font":         {
+        "self":         ["caption", "icon", "menu", "message-box", "small-caption", "status-bar"],
+        "family":       FAMILY-NAME | generic-family
+        "size":         X | (xx-|x-|)(small|large) | medium | (larg|small)er
+        "size-adjust":  X | none
+        "stretch":      normal | wider | narrower | (ultra-|extra-|semi-)(condensed|expanded)
+        "style":        ["normal", "italic", "oblique"],
+        "variant":      ["normal", "small-caps"],
+        "weight":       normal | (light|bold)(er) | (1-9)00
+    }
+
+    "content":      URL | (counter(|s)\(name(|, list-style-type\), attr\(X\), (no|)(open|close)-quote
+    "counter-increment: none | IDENTIFIER NUMBER
+    "counter-reset": none | IDENTIFIER NUMBER
+    "quotes":       none | STRING STRING
+    
+    "list-style":   {
+        "image":        none | URL
+        "position:      ["inside", "outside"],
+        "type":         none | (disc | circle | square) | (decimal(|-leading-zero) | (lower|upper)-(roman|alpha|latin)
+                        | lower-greek | hebrew | armenian | georgian | cjk-ideographic | (hiragana|katakana)(|-iroha)
+    }
+    "marker-offset": X | auto
+    
+    "margin":       {
+        "bottom":       X | auto
+        "left":         X | auto
+        "right":        X | auto
+        "top":          X | auto
+    },
+    
+    "outline":      {
+        "color":        COLOR | invert
+        "style":        ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
+        "width":        X | (thin | medium | thick)
+    }
+    
+    "padding":      {
+        "bottom":       X | auto
+        "left":         X | auto
+        "right":        X | auto
+        "top":          X | auto
+    },
+
+    "left":         X | auto
+    "right":        X | auto
+    "top":          X | auto
+    "bottom":       X | auto
+    "clip":         ["shape", "auto"],
+    "overflow":     ["visible", "hidden", "scroll", "auto"],
+    "vertical-align": X | baseline | sub | super | (text-|)(top|bottom) | middle
+    "z-index":      X | auto
+    
+    "border-collapse": ["collapse", "separate"],
+    "border-spacing": X X
+    "caption-side": ["top", "bottom", "left", "right"],
+    "empty-cells":  ["show", "hide"],
+    "table-layout": ["auto", "fixed"],
+    
+    "color":        COLOR
+    "direction":    ["ltr", "rtl"],
+    "letter-spacing": X | normal
+    "text":         {
+        "align":        ["left", "right", "center", "justify"],
+        "decoration":   ["none", "underline", "overline", "line-through", "blink"],
+        "indent":       X
+        "shadow":       none | COLOR | X
+        "transform":    ["none", "capitalize", "uppercase", "lowercase"]
+    },
+    "unicode-bidi": ["normal", "embed", "bidi-override"],
+    "white-space":  ["normal", "pre", "nowrap"],
+    "word-spacing": X | normal
+}

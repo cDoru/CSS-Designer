@@ -1,0 +1,19 @@
+{
+    "unit": ["px", "em", "ex", "%", "cm", "mm", "in", "pt", "pc"],
+    "border-mods": ["thin", "medium", "thick"],
+    "border-styles": ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
+
+    "FONTNAMES":    "input",
+    "CONTENT":      "URL, counter(name, list-style-type), attr(X), (no|)(open|close)-quote",
+    "CONTENT":      "input",
+    "COUNTERNAME":  "input",
+    "QUOTE":        "input"
+
+    "X":    function (mod, dels) {
+        return {
+            "type":  "Number",
+            "Mods":  (typeOf(mod) == 'array')?mod:[mod],
+            "Units": JSON.unit
+        };
+    }
+}

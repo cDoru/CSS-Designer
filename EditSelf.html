@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>TestSeite</title>
+        <script src="JS Stuff/jquery.js" type="text/javascript"></script>
+        <script src="JS Stuff/jquery.include.js" type="text/javascript"></script>
+        <script src="JS Stuff/jquery-ui.js" type="text/javascript"></script>
+        <script>
+            f = 'JS Stuff/';
+            e = '.min.js';
+            $.include(f+'DLH'+e);
+            $.include(f+'archiv/DLH/DLH.js');
+            //$.include([f+'GrabWindow'+e, f+'GrabWindow.min.css']);
+            $.include([f+'EditWindow.js', f+'EditWindow.css']);
+            $(function() {
+                //_initGrab();
+                _initEdit();
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Überschrift</h1>
+        <p>Einleitungstext Einleitungstext Einleitungstext Einleitungstext 
+        Einleitungstext Einleitungstext Einleitungstext Einleitungstext Einleitungstext Einleitungstext 
+        Einleitungstext Einleitungstext Einleitungstext Einleitungstext Einleitungstext Einleitungstext 
+        Einleitungstext Einleitungstext Einleitungstext Einleitungstext Einleitungstext Einleitungstext </p>
+        <h2>Zwischenüberschrift</h2>
+        <input class="spinbutton" value="12px" />
+        <input class="spinbutton" value="12px" />
+        <p>Hier kommt jetzt eine kleine Liste rein</p>
+        <ul>
+            <li>Erstes Listitem mit Bild <img src="/home/ber/Bilder/pauli button.png" /></li>
+            <li>Erstes Listitem mit Bild <img src="/home/ber/Bilder/pauli button.png" /></li>
+            <li>Erstes Listitem mit Bild <img src="/home/ber/Bilder/pauli button.png" /></li>
+            <li>Erstes Listitem mit Bild <img src="/home/ber/Bilder/pauli button.png" /></li>
+        </ul>
+        <div id="images">Test</div>
+    </body>
+</html>

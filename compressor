@@ -1,0 +1,13 @@
+#!/bin/bash
+
+FE=${1:${#1}-3};
+
+if [ "${FE:0:1}" == "." ]; then
+	FE=${FE:1};
+fi
+
+FN=${1:0:${#1}-1-${#FE}};
+java="/usr/bin/java";
+compressor="jquery-ui/yuicompressor-2.4.2.jar";
+
+$java -jar $compressor -v -o "${FN}.min.${FE}" "${FN}.${FE}";

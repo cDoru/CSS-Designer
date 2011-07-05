@@ -1,0 +1,43 @@
+#BWL_Edit {
+    border:         1px solid grey;
+    background:     lightgrey;
+    font:           12px sans-serif;
+    width:          200px;
+    padding:        5px;
+    padding-top:    4px;
+    position:       absolute;
+    right:          50px;
+    top:            50px
+}
+
+#BWL_Edit > h2 {
+    border-top:     1px solid grey;
+    border-bottom:  1px solid grey;
+    margin:         0px;
+    padding:        0px;
+    padding-left:   6px;
+    background:     grey;
+    font-size:      10px;
+    color:          white;
+    width:          204px;
+    position:       relative;
+    left:           -5px;
+    top:            -4px;
+}
+
+#BWL_Edit > form > input {
+    width:         192px;
+}
+
+#BWL_Edit > form   input {
+    width:          100px;
+}
+
+#BWL_Edit > form > select > option{
+    width:         168px;
+}
+
+
+#BWL_Edit > form > select + br + input + br + input {
+    width:         199px;
+}

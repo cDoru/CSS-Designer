@@ -1,0 +1,130 @@
+{
+/1  "background":   {
+        "color":        "COLOR",
+/2      "image":        URL | transparent
+/3      "position":     JSON.X("top", "center", "bottom) JSON.X("left", "center", "right")
+        "attachment":   ["scoll", "fixed"],
+        "repeat":       ["repeat", "repeat-x", "repeat-y", "no-repeat"],
+    },
+
+/1  "border":       {
+        "self":         {
+            "color":        "COLOR",
+            "style":        JSON.border-styles,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "left":         {
+            "color":        "COLOR",
+            "style":        JSON.border-styles,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "right":        {
+            "color":        "COLOR",
+            "style":        JSON.border-styles,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "top":          {
+            "color":        "COLOR",
+            "style":        JSON.border-styles,
+            "width":        JSON.X(JSON.border-mods),
+        },
+        "bottom":       {
+            "color":        "COLOR",
+            "style":        JSON.border-styles,
+            "width":        JSON.X(JSON.border-mods),
+        },
+    }
+
+    "clear":        ["left", "right", "both", "none"],
+/2  "cursor":       URL | ["auto", "crosshair", "default", "pointer", "move", "text", "wait", "help"]
+                           .glue(["n", "", "s"],["e", "", "w"], ["resize"]).del("resize"),
+    "display":      ["none", "inline", "block", "list-item", "run-in", "compact", "marker", "inline-table"],
+    "float":        ["left", "right", "none"],
+    "position":     ["static", "relative", "absolute", "fixed"],
+    "visibility":   ["visible", "hidden", "collapse"],
+
+    "height":       JSON.X("auto"),
+    "max-height":   JSON.X("none"),
+    "min-height":   JSON.X("none"),
+    "width":        JSON.X("auto"),
+    "max-width":    JSON.X("none"),
+    "min-width":    JSON.X("none"),
+    "line-height":  JSON.X("normal"),
+
+/1  "font":         {
+        "self":         ["caption", "icon", "menu", "message-box", "small-caption", "status-bar"],
+/3      "family":       JSON.FONTNAMES ["serif", "sans-serif", "cursiv", "fantasy", "monospace", "inherit"],
+        "size":         JSON.X(["smaller, "medium", "larger"].glue(["xx-", "x-", ""], ["small", "large"]),
+        "size-adjust":  JSON.X("none"),
+        "stretch":      ["normal", "wider", "narrower"].glue(["ultra", "extra", "semi"], ["-condensed", "-expanded"])
+        "style":        ["normal", "italic", "oblique"],
+        "variant":      ["normal", "small-caps"],
+        "weight":       ["light", "lighter", "normal", "bolder", "bold"].glue([1,2,3,4,5,6,7,8,9], ["00"])
+    }
+
+    "content":          JSON.CONTENT,
+    "counter-increment: JSON.COUNTERNAME,
+    "counter-reset":    JSON.COUNTERNAME,
+/3  "quotes":           JSON.QUOTE JSON.QUOTE
+
+/1  "list-style":   {
+/2      "image":        none | URL
+        "position:      ["inside", "outside"],
+        "type":         ["none", "disc", "circle", "square", "decimal", "decimal-leading-zero",
+                         "lower-greek", "hebrew", "armenian", "georgian", "cjk-ideographi"]
+                         .glue(["hiragana", "katakana"], ["", "-iroha"])
+                         .glue(["lower", "upper"], ["roman", "alpha", "latin"]),
+    }
+    "marker-offset": JSON.X("auto"),
+
+/1  "margin":       {
+        "self":         JSON.X("auto"),
+        "bottom":       JSON.X("auto"),
+        "left":         JSON.X("auto"),
+        "right":        JSON.X("auto"),
+        "top":          JSON.X("auto"),
+    },
+
+/1  "outline":      {
+/2b     "color":        "COLOR" | invert
+        "style":        JSON.border-styles,
+        "width":        JSON.X(JSON.border-mods)
+    }
+
+/1  "padding":      {
+        "self":         JSON.X("auto"),
+        "bottom":       JSON.X("auto"),
+        "left":         JSON.X("auto"),
+        "right":        JSON.X("auto"),
+        "top":          JSON.X("auto")
+    },
+
+    "left":         JSON.X("auto"),
+    "right":        JSON.X("auto"),
+    "top":          JSON.X("auto"),
+    "bottom":       JSON.X("auto"),
+    "clip":         ["shape", "auto"],
+    "overflow":     ["visible", "hidden", "scroll", "auto"],
+    "vertical-align": JSON.X(["baseline", "sub", "super"].glue(["text-", ""], ["top", "bottom"])),
+    "z-index":      JSON.X("auto"),
+
+    "border-collapse": ["collapse", "separate"],
+/3  "border-spacing": X X
+    "caption-side": ["top", "bottom", "left", "right"],
+    "empty-cells":  ["show", "hide"],
+    "table-layout": ["auto", "fixed"],
+
+    "color":        "COLOR",
+    "direction":    ["ltr", "rtl"],
+    "letter-spacing": JSON.X("normal"),
+/1  "text":         {
+        "align":        ["left", "right", "center", "justify"],
+        "decoration":   ["none", "underline", "overline", "line-through", "blink"],
+        "indent":       JSON.X()
+/3      "shadow":       X X X "COLOR" | none | inherit
+        "transform":    ["none", "capitalize", "uppercase", "lowercase"]
+    },
+    "unicode-bidi": ["normal", "embed", "bidi-override"],
+    "white-space":  ["normal", "pre", "nowrap"],
+    "word-spacing": JSON.X("normal")
+}
