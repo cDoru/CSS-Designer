@@ -12,11 +12,30 @@ define(
 				}
 			),
 
-			addTemplate = "<div id='addCSS'>" +
-				 "<label for='element'>Element</label> <input type='text' id='element' name='element' /><br />" +
-				 "<label for='property'>Property</label> <input type='text' id='property' name='property' /><br />" +
-				 "<label for='value'>Value</label> <input type='text' id='value' name='value' />" +
-				 "</div>",
+			textfield = function (desc, id, type) {
+				if (type === null) {
+					type = 'text';
+				}
+				if (id === null) {
+					id = desc.toLowerCase();
+				}
+				return "<label for='" + id + "'>" + desc + "</label> <input type='" + type + "' id='" + id + "' name='" + id + "' /><br />";
+			},
+
+			wrap = function (tag, value, id) {
+				if (id !== null) {
+					id = ' id="' + id + '"';
+				} else {
+					id = '';
+				}
+				return '<' + tag + id + '>' + value + '</' + tag + '>';
+			},
+
+			addTemplate = wrap(
+				'div',
+				textfield('Element') + textfield('Property') + textfield('Value'),
+				'addCSS'
+			),
 
 			add = function () {
 				return $('#addCSS').dialog('open');
