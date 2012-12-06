@@ -1,0 +1,769 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"func",
+				"function_arguments"
+			],
+			[
+				"click",
+				"clickevent"
+			],
+			[
+				"css_",
+				"Css_Editor_Core"
+			],
+			[
+				"draw",
+				"draw_property"
+			],
+			[
+				"dra",
+				"draw_property"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"proper",
+				"property_list"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"antwort",
+				"antwort_typ"
+			],
+			[
+				"inline-b",
+				"inline-block"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"join",
+				"join_feld"
+			],
+			[
+				"fet",
+				"fetch_num"
+			],
+			[
+				"GROUP",
+				"GROUP_CONCAT"
+			],
+			[
+				"AS",
+				"AS"
+			],
+			[
+				"_",
+				"_id"
+			],
+			[
+				"testlei",
+				"testleiter_id"
+			],
+			[
+				"proband",
+				"proband"
+			],
+			[
+				"chr",
+				"chromosom_dna"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"p",
+				"point2"
+			],
+			[
+				"color",
+				"colors"
+			],
+			[
+				"save",
+				"save"
+			],
+			[
+				"representation",
+				"representation"
+			],
+			[
+				"indi",
+				"individual"
+			],
+			[
+				"po",
+				"point2"
+			],
+			[
+				"chromo",
+				"chromosoms"
+			],
+			[
+				"param",
+				"parameter"
+			],
+			[
+				"ge",
+				"generalProperty"
+			],
+			[
+				"chroms",
+				"chromosoms"
+			],
+			[
+				"gen",
+				"genpool"
+			],
+			[
+				"im",
+				"im"
+			],
+			[
+				"wea",
+				"weakestTwo"
+			],
+			[
+				"fitne",
+				"fitness"
+			],
+			[
+				"fitness",
+				"fittness"
+			],
+			[
+				"chrom",
+				"chromosms"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"return",
+				"m_returnstatus"
+			],
+			[
+				"erhebung",
+				"erhebung_id"
+			],
+			[
+				"fil",
+				"filterFunc"
+			],
+			[
+				"fputs",
+				"fputcsv"
+			],
+			[
+				"array_fil",
+				"array_filter"
+			],
+			[
+				"erhID",
+				"erhebung_id"
+			],
+			[
+				"proband_",
+				"proband_id"
+			],
+			[
+				"tem",
+				"from_template"
+			],
+			[
+				"sch",
+				"schuelerWichtigkeit"
+			],
+			[
+				"le",
+				"lehrerAntworten"
+			],
+			[
+				"var",
+				"var_export"
+			],
+			[
+				"antwor",
+				"antworttyp"
+			],
+			[
+				"ant",
+				"antwortTypen"
+			],
+			[
+				"sql",
+				"sql_proband_covariaten_template_select"
+			],
+			[
+				"run",
+				"run_macro_file"
+			],
+			[
+				"prob",
+				"proband"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"loc",
+				"local"
+			],
+			[
+				"v",
+				"view"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css_validator.js",
+			"settings":
+			{
+				"buffer_size": 979,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Css_Editor_Core.js",
+			"settings":
+			{
+				"buffer_size": 2932,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "CSSproperties.json",
+			"settings":
+			{
+				"buffer_size": 11355,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 285.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: u",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 381.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ber/Code/CSS-Designer/index.js",
+		"/home/ber/Code/CSS-Designer/Error.js",
+		"/home/ber/Desktop/50583",
+		"/home/ber/Desktop/14909",
+		"/home/ber/Code/CSS-Designer/CSSproperties.json",
+		"/home/ber/Code/CSS-Designer/CSS_Attribs.json",
+		"/home/ber/bin/Materialien.py",
+		"/home/ber/Desktop/kt_9999_kompetenztest.dat",
+		"/home/ber/Desktop/main.js",
+		"/home/ber/Code/CSSEditor/index.js",
+		"/home/ber/Code/CSSEditor/index.html",
+		"/home/ber/Code/CSSEditor/Css_Editor_Core.js",
+		"/home/ber/Desktop/Debug/KT2013Anmeldung.pdb",
+		"/home/ber/Projekt KT/K-Tests 2013/! Anmeldeprogramm testen/SCHUELERDATEN_ANMELDUNG_2012_3_anonym.XML",
+		"/home/ber/Projekt KT/K-Tests 2013/! Anmeldeprogramm testen/kt_99999_kompetenztest.dat",
+		"/home/ber/Projekt KT/K-Tests 2013/! Anmeldeprogramm testen/SCHUELERDATEN_ANMELDUNG_2012_anonym.XML",
+		"/etc/samba/smb.conf",
+		"/home/ber/Code/CSSEditor/jquery.contextmenu.css",
+		"/home/ber/Code/CSSEditor/jquery.contextmenu.js",
+		"/home/ber/Code/CSSEditor/Error.js",
+		"/home/ber/Code/TinyTimeTracker/look.css",
+		"/home/ber/Code/CSSEditor/jquery.min.js",
+		"/home/ber/Code/Work/vKT/index.htm",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/jslint.sublime-settings",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/jslint/jslint.sublime-settings",
+		"/home/ber/Code/Work/vKT/js/d3.v2.js",
+		"/home/ber/Code/Work/vKT/js/handlebars.js",
+		"/home/ber/Code/Work/vKT/js/Step0.js",
+		"/home/ber/Code/Work/vKT/js/vKT_GruppenDiagramm.js",
+		"/home/ber/Code/Work/vKT/js/vKT_CovariatenEditor.js",
+		"/home/ber/Code/Work/vKT/js/vKT_Step2.js",
+		"/home/ber/bin/mediaDownload.py",
+		"/home/ber/Code/Kompetenztest/kt/portal/portal.api.php",
+		"/home/ber/Desktop/Anmeldeprogramm_Temp_Ordner/crypt.php",
+		"/home/ber/.cache/.fr-GzRiVx/Temp/proxytest.txt",
+		"/home/ber/.cache/.fr-dTzs1S/Temp/proxytest.txt",
+		"/home/ber/Desktop/Anmeldeprogramm_Temp_Ordner/TEST/crypt.php",
+		"/home/ber/Desktop/test.html",
+		"/home/ber/Desktop/Anmeldeprogramm_Temp_Ordner/TEST/uncrypt.php",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/step5.html",
+		"/home/ber/Desktop/FSU_Jena_Ordner_löschen.vbs",
+		"/home/ber/Desktop/Standard-Projekt.osp",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/step4.html",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/step3.html",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/step2b.html",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/step1a.html",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/step1b.html",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/step2a.html",
+		"/mnt/home/ber/Code/Work/KTAnmeldung/help/index.html",
+		"/home/ber/Code/Scripts/Abfrage_neuerVersuch.php",
+		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/step4.html",
+		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/index.html",
+		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/step1a.html",
+		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/_index.html",
+		"/home/ber/Code/Kompetenztest/kt/ktadm/reports.php",
+		"/home/ber/.thunderbird/3pwgevzx.default/ImapMail/mail.metpsy.uni-jena.de/msgFilterRules.dat",
+		"/home/ber/.thunderbird/3pwgevzx.default/ImapMail/mail.metpsy.uni-jena.de/INBOX",
+		"/home/ber/Desktop/help/index.html",
+		"/home/ber/Desktop/Bilder/step1b.html",
+		"/home/ber/Desktop/Bilder/step4.html",
+		"/home/ber/Desktop/Bilder/clipboard.html",
+		"/home/ber/Desktop/Bilder/step1a.html",
+		"/home/ber/Desktop/Bilder/content.html",
+		"/home/ber/Desktop/Bilder/index.html",
+		"/home/ber/Desktop/Bilder/about.html",
+		"/home/ber/Desktop/Bilder/step3.html",
+		"/home/ber/Desktop/Bilder/step5.html",
+		"/home/ber/Desktop/Bilder/step2b.html",
+		"/home/ber/Desktop/Bilder/import.html",
+		"/home/ber/Desktop/Bilder/step2a.html",
+		"/home/ber/Code/Scripts/Abfrage.php",
+		"/home/ber/Code/Scripts/Abfrage_2.php",
+		"/home/ber/bin/server.csv",
+		"/home/ber/Desktop/kt_99999_kompetenztest",
+		"/mnt/SEfU/develop/web/lehrer.php",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/ber/Dropbox/Code/develop.SEfU.sublime-project",
+		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/Templates/Main.dwt",
+		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/step3.html",
+		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/about.html",
+		"/home/ber/.www/laptop.sublime-project",
+		"/home/ber/.www/index.php",
+		"/var/www/index.php",
+		"/usr/lib/python2.7/webbrowser.py",
+		"/home/ber/.config/sublime-text-2/Packages/Xdebug/Xdebug.py",
+		"/home/ber/.config/sublime-text-2/Packages/Xdebug/Xdebug.sublime-settings",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/Preferences.sublime-settings",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Language - German/German_de_DE.dic",
+		"/home/ber/Code/SEfU/sefu_develop.sublime-project",
+		"/home/ber/Code/SEfU/admin/releaseManagement.py",
+		"/home/ber/Desktop/ToDo",
+		"/home/ber/Code/SEfU/develop/apps/lehrer/config/app.yml",
+		"/home/ber/Desktop/select.test.html",
+		"/home/ber/Desktop/duplicates.py",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Default/Preferences (Linux).sublime-settings",
+		"/home/ber/Code/SEfU/develop/apps/lehrer/templates/_evaluationOverview.php",
+		"/home/ber/Code/SEfU/develop/apps/lehrer/templates/layout.php",
+		"/home/ber/Code/SEfU/develop/apps/lehrer/modules/vorlage/actions/actions.class.php",
+		"/home/ber/Code/SEfU/develop/apps/lehrer/modules/erhebung/actions/actions.class.php",
+		"/home/ber/Desktop/select.test",
+		"/home/ber/Code/SEfU/develop/lib/form/ErhebungDurchfuehrenForm.class.php",
+		"/home/ber/Code/SEfU/develop/lib/Steuerelement.class.php",
+		"/home/ber/Code/SEfU/develop/lib/Schuljahr.class.php",
+		"/home/ber/Code/SEfU/develop/web/dev/lehrer.php.dev",
+		"/home/ber/Code/SEfU/develop/web/dev/frontend.php.dev",
+		"/home/ber/Code/SEfU/develop/web/dev/erhebung.php.dev",
+		"/home/ber/Code/SEfU/develop/web/dev/backend.php.dev",
+		"/home/ber/Code/SEfU/develop/web/lehrer.php",
+		"/home/ber/Code/SEfU/develop/apps/erhebung/config/factories.yml",
+		"/home/ber/Code/SEfU/develop/apps/lehrer/config/factories.yml",
+		"/home/ber/Code/SEfU/develop/apps/frontend/config/factories.yml",
+		"/home/ber/Code/SEfU/develop/data/fixtures/11_erhebung_item.yml",
+		"/home/ber/Code/SEfU/develop/config/settings.yml",
+		"/home/ber/Code/SEfU/develop/config/generated-sfGuardPlugin-schema.yml",
+		"/home/ber/Code/SEfU/develop/config/databases.yml.testserver",
+		"/home/ber/Code/SEfU/develop/config/databases.yml.sample",
+		"/home/ber/Code/SEfU/develop/config/databases.yml.produktionsserver",
+		"/home/ber/Code/SEfU_old/develop_zumVergleich/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php",
+		"/home/ber/Code/SEfU_old/develop_zumVergleich/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php",
+		"/home/ber/Code/SEfU/develop/config/ProjectConfiguration.class.php",
+		"/home/ber/Code/SEfU/develop/lib/vendor/symfony/lib/config/config/factories.yml",
+		"/home/ber/Code/SEfU/develop/config/error/error.html.php",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Whitespaces/Default (Linux).sublime-keymap",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/Whitespaces.sublime-settings",
+		"/home/ber/Desktop/changes.sql",
+		"/home/ber/43051867"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/ber/Code/SEfU/develop/apps/lehrer"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"css-properties",
+			"properties",
+			"\"4\":",
+			"\"1\":    ",
+			"\\\\padding-",
+			"\\\\margin-",
+			"$",
+			"\n",
+			"WIDTH",
+			"IMAGE",
+			"\n",
+			"n",
+			"\n",
+			"lower",
+			"\n",
+			"[\"auto\", \"inherit\", \"$NUMERICAL\"],",
+			"               [\"",
+			"margin",
+			"        \"",
+			"margin",
+			"-style",
+			"\n",
+			"capitalize",
+			"\n",
+			"underline",
+			"\\b",
+			"color",
+			"width",
+			"$COLOR",
+			"\",\n",
+			"color",
+			"WIDTH",
+			"width",
+			"background",
+			"\n",
+			"none",
+			"11499",
+			"element",
+			"unix",
+			"lable",
+			"id",
+			"jQuery",
+			"error",
+			"None",
+			"null",
+			"rote",
+			"übergreifend",
+			"Klassen",
+			"Kompetenztest",
+			"die()",
+			"sql_erhebungen",
+			"abfrageAntwort",
+			"abfrageAntwort_lehrer",
+			"abfrageAntwort",
+			"die(",
+			"abfrageAntwort",
+			"profil_tabelle",
+			"$antwort_typ",
+			"antwort_typ",
+			"$antworter",
+			"antworter",
+			"teilnehmer",
+			"abfrageAntwort",
+			"sql_schueler_antworten",
+			"abfrageAntwort",
+			"abfrageCovariaten",
+			"DROP TABLE",
+			"debug",
+			"vartype",
+			"abfrageAntwort_preparation",
+			"as",
+			"abfrageAntwort_preparation",
+			"items",
+			"rechner",
+			"gethostbyaddr",
+			"erhebung_template_item",
+			".jpg",
+			"gif",
+			"<!",
+			"gif",
+			"<!",
+			"gif",
+			"<!",
+			"gif",
+			"abfrage",
+			"template",
+			"templates",
+			"sql_items",
+			"profil_tabelle",
+			"$typ",
+			"3",
+			"sql_probanden",
+			"sql_erhebungen",
+			"SHA2",
+			"sha2",
+			"SHA2",
+			"sha2",
+			"SHA2",
+			"sha2",
+			"SHA2",
+			"_tryorder",
+			"firefox",
+			"webbrowser",
+			"browser",
+			"git.",
+			"Cols",
+			"Tabelle",
+			"Tabelle =",
+			"Cols =",
+			"Cols'",
+			"Cols",
+			"templateverwaltung",
+			"environment",
+			"routing",
+			"getUser(",
+			"'6', 'a",
+			"'7', ",
+			" '",
+			"'7',",
+			" '",
+			"'7'",
+			"test",
+			"develop",
+			"if",
+			"beitrag",
+			"optimalResolution",
+			"opt.",
+			"urllib"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"\\t"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css_validator.js",
+					"settings":
+					{
+						"buffer_size": 979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								585,
+								585
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Css_Editor_Core.js",
+					"settings":
+					{
+						"buffer_size": 2932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "CSSproperties.json",
+					"settings":
+					{
+						"buffer_size": 11355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7629,
+								7629
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.449098608208,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 217.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 120.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/home/ber/Code/SEfU/sefu_develop.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 309.0,
+	"status_bar_visible": true
+}
