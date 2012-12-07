@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"expand",
+				"expand_to"
+			],
+			[
+				"proper",
+				"property_spread"
+			],
+			[
+				"pro",
+				"property_compound"
+			],
+			[
 				"func",
 				"function_arguments"
 			],
@@ -22,14 +34,6 @@
 			[
 				"dra",
 				"draw_property"
-			],
-			[
-				"pro",
-				"prototype"
-			],
-			[
-				"proper",
-				"property_list"
 			],
 			[
 				"d",
@@ -243,7 +247,7 @@
 			"file": "css_validator.js",
 			"settings":
 			{
-				"buffer_size": 979,
+				"buffer_size": 2335,
 				"line_ending": "Unix"
 			}
 		},
@@ -259,7 +263,7 @@
 			"file": "CSSproperties.json",
 			"settings":
 			{
-				"buffer_size": 11355,
+				"buffer_size": 11262,
 				"line_ending": "Unix"
 			}
 		}
@@ -300,13 +304,13 @@
 	},
 	"file_history":
 	[
+		"/home/ber/bin/Materialien.py",
 		"/home/ber/Code/CSS-Designer/index.js",
 		"/home/ber/Code/CSS-Designer/Error.js",
 		"/home/ber/Desktop/50583",
 		"/home/ber/Desktop/14909",
 		"/home/ber/Code/CSS-Designer/CSSproperties.json",
 		"/home/ber/Code/CSS-Designer/CSS_Attribs.json",
-		"/home/ber/bin/Materialien.py",
 		"/home/ber/Desktop/kt_9999_kompetenztest.dat",
 		"/home/ber/Desktop/main.js",
 		"/home/ber/Code/CSSEditor/index.js",
@@ -446,6 +450,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"URL",
+			"$URL",
+			"expander",
 			"css-properties",
 			"properties",
 			"\"4\":",
@@ -570,10 +577,7 @@
 			"test",
 			"develop",
 			"if",
-			"beitrag",
-			"optimalResolution",
-			"opt.",
-			"urllib"
+			"beitrag"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -600,23 +604,24 @@
 					"file": "css_validator.js",
 					"settings":
 					{
-						"buffer_size": 979,
+						"buffer_size": 2335,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								585,
-								585
+								378,
+								378
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 810.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -633,8 +638,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								549,
+								549
 							]
 						],
 						"settings":
@@ -659,15 +664,15 @@
 					"file": "CSSproperties.json",
 					"settings":
 					{
-						"buffer_size": 11355,
+						"buffer_size": 11262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7629,
-								7629
+								7430,
+								7430
 							]
 						],
 						"settings":
@@ -677,7 +682,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1674.0,
+						"translation.y": 1721.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

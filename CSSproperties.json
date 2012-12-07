@@ -51,12 +51,7 @@
         ],
         "$DISTANCE":        ["auto", "inherit", "$NUMERICAL"],
         "$WIDTH":           ["thin", "medium", "thick", "$NUMERICAL"],
-        "$STYLE":           ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
-        "$URL":             {
-            "0":    "url(",
-            "1":    "$URI", // interne Klasse
-            "2":    ")"
-        }
+        "$STYLE":           ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"]
     },
     "properties": {
         // Immer eine Eigenschaft mit einer Werteklasse
@@ -102,7 +97,7 @@
         "outline-color":            "$COLOR",
         "outline-style":            "$STYLE",        
         "background-color":         "$COLOR",
-        "background-image":         ["transparent", "$URL"],
+        "background-image":         ["transparent", "$URI"], // $URI interne Klasse
         "background-repeat":        ["repeat", "repeat-x", "repeat-y", "no-repeat"],
         "background-attachment":    ["scroll", "fixed"],
         "background-position":      ["top", "bottom", "center", "left", "right"],
@@ -111,7 +106,7 @@
             "lower-greek", "hebrew", "decimal-leading", "cjk-ideographic", "hiragana", "katakana", "hiragana-iroha", "katakana-iroha"
         ],
         "list-style-position":      ["inside", "outside"],
-        "list-style-image":         ["none", "$URL"],
+        "list-style-image":         ["none", "$URI"], // $URI interne Klasse
         "caption-side":             ["top", "bottom"],
         "table-layout":             ["auto", "fixde"],
         "border-collapse":          ["separate", "collapse"],
