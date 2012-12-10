@@ -3,31 +3,32 @@
     - $NUMBER
     - $INTEGER
     - $URI
-    - $RELFONTSIZE ist Wert für font-size/line-height
     - $FONTS = $FONT[, $FONTS]
-    - $HEXCOLOR
+    - $ABSOLUTCOLOR
+    - $RELFONTSIZE ist ein kombinierter Wert für font-size/line-height
     */
 
     // Klassen von CSS-Eigenschafts-Werten
     "valueclass": {
         // {} wird genutzt um aus mehreren Zeichen/Klassen zusammengesetzte Klasse zu spezifizieren
         "$RELNUMERICAL":    {
-            "0": "$NUMBER",
-            "1": "%"
+            "1": "$NUMBER",
+            "2": "%"
         },
-        // [] wird genutzt um alternativen zu spezifizieren
+        // [] wird genutzt um Alternativen anzugeben
         "$ABSUNIT":         ["pt", "pc", "in", "mm", "cm", "px", "em", "ex"],
         "$ABSNUMERICAL":    {
-            "0": "$NUMBER",
-            "1": "$ABSUNIT"
+            "1": "$NUMBER",
+            "2": "$ABSUNIT"
         },
         "$NUMERICAL":       ["$ABSNUMERICAL", "$RELNUMERICAL"],
-        "$RELFONTSIZE":     { // Da muss ein extra Hook rein, damit die zweite Angabe auf line-height geschoben wird
-            "0":    "$NUMERICAL", // Number ist eine spezielle, intern bekannte Klasse
-            "1":    "/",
-            "2":    "$NUMERICAL"
+        "$FONTSIZE":        ["xx-small", "x-small", "small", "medium", "large", "x-large", "xx-large", "smaller", "larger", "$NUMERICAL"],
+        "$FONTSIZELINEGEIGHT": { // Da muss ein extra Hook rein, damit die zweite Angabe auf line-height geschoben wird
+            "1":    "$FONTSIZE",
+            "2":    "/",
+            "3":    "$NUMERICAL" // Numerical ist eine spezielle, intern bekannte Klasse
         },
-        "$COLOR":           ["$HEXCOLOR", "$COLORNAME", "$SYSTEMCOLORS"],
+        "$COLOR":           ["$ABSOLUTCOLOR", "$COLORNAME", "$SYSTEMCOLORS"],
         "$COLORNAME":       [
             "aliceblue", "antiquewhite", "aquamarine", "azure", "beige", "blueviolet", "brown", "burlywood", "cadetblue", "chartreuse",
             "chocolate", "coral", "cornflowerblue", "cornsilk", "crimson", "darkblue", "darkcyan", "darkgoldenrod", "darkgray", "darkgreen",
@@ -43,6 +44,11 @@
             "sandybrown", "seagreen", "seashell", "sienna", "skyblue", "slateblue", "slategray", "snow", "springgreen", "steelblue", "tan",
             "thistle", "tomato", "turquoise", "violet", "wheat", "whitesmoke", "yellowgreen"
         ],
+        "$RESSOURCE": {
+            "1": "url(",
+            "2": "$URI",
+            "3": ")"
+        },
         "$SYSTEMCOLORS":    [
             "ActiveBorder", "ActiveCaption", "AppWorkspace", "Background", "ButtonFace", "ButtonHighlight", "ButtonShadow", "ButtonText",
             "CaptionText", "GrayText", "Highlight", "HighlightText", "InactiveBorder", "InactiveCaption", "InactiveCaptionText",
@@ -58,10 +64,7 @@
         "font-family":              "$FONTS", // interne Klasse
         "font-style":               ["italic", "oblique", "normal"],
         "font-variant":             ["small-caps", "normal"],
-        "font-size":                [
-            "xx-small", "x-small", "small", "medium", "large", "x-large", "xx-large", "smaller", "larger",
-            "$NUMERICAL", "$RELFONTSIZE"
-        ],
+        "font-size":                $FONTISZE,
         "font-weight":              ["bold", "bolder", "lighter", "normal", "100", "200", "300", "400", "500", "600", "700", "800", "900"],
         "word-spacing":             "$ABSNUMERICAL",
         "letter-spacing":           "$ABSNUMERICAL",
@@ -70,6 +73,7 @@
         "color":                    "$COLOR",
         "text-indent":              "$NUMERICAL",
         "line-height":              "$NUMERICAL",
+        "font-size-line-height":    "$FONTSIZELINEGEIGHT", // gibt es nicht wirklich, ist ein Hack um die angabe von font-size u. line-height in font zu ermöglichen
         "vertical-align":           ["top", "middle", "bottom", "baseline", "sub", "super", "text-top", "text-bottom", "RELNUMERICAL"],
         "text-align":               ["left", "center", "right", "justify"],
         "white-space":              ["normal", "pre", "nowrap", "pre-wrap", "pre-line"],
@@ -97,7 +101,7 @@
         "outline-color":            "$COLOR",
         "outline-style":            "$STYLE",        
         "background-color":         "$COLOR",
-        "background-image":         ["transparent", "$URI"], // $URI interne Klasse
+        "background-image":         ["transparent", "$RESSOURCE"],
         "background-repeat":        ["repeat", "repeat-x", "repeat-y", "no-repeat"],
         "background-attachment":    ["scroll", "fixed"],
         "background-position":      ["top", "bottom", "center", "left", "right"],
@@ -106,7 +110,7 @@
             "lower-greek", "hebrew", "decimal-leading", "cjk-ideographic", "hiragana", "katakana", "hiragana-iroha", "katakana-iroha"
         ],
         "list-style-position":      ["inside", "outside"],
-        "list-style-image":         ["none", "$URI"], // $URI interne Klasse
+        "list-style-image":         ["none", "$RESSOURCE"],
         "caption-side":             ["top", "bottom"],
         "table-layout":             ["auto", "fixde"],
         "border-collapse":          ["separate", "collapse"],
@@ -115,10 +119,9 @@
         "speak-header":             ["always", "once"],
         "cursor":                   [
             "auto", "default", "crosshair", "pointer", "move", "text", "wait", "help", "progress", 
-            "n-resize", "ne-resize", "e-resize", "se-resize", "s-resize", "sw-resize", "w-resize", "nw-resize", "$URL"
-        ]
-    },
-    "page_properties": {
+            "n-resize", "ne-resize", "e-resize", "se-resize", "s-resize", "sw-resize", "w-resize", "nw-resize", "$RESSOURCE"
+        ],
+    // page_properties
         "page-break-before":        ["always", "avoid", "left", "right", "inherit", "auto"],
         "page-break-after":         ["always", "avoid", "left", "right", "inherit", "auto"],
         "page-break-inside":        ["avoid", "auto"],
@@ -127,7 +130,7 @@
     },
     "compounds": {
         // Eine Eigenschaft die auf andere abzubilden ist
-        "font":         ["style", "variant", "weight", "size", "\\line-height", "family"],
+        "font":         ["style", "variant", "weight", "size", "size-line-height", "family"],
         "margin":       {
             "1":    [["top", "right", "bottom", "left"]],
             "2":    [["top", "bottom"], ["right", , "left"]],

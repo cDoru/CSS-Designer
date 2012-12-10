@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"value",
+				"valueclass"
+			],
+			[
+				"value_val",
+				"value_validate_class"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"css",
+				"css_value"
+			],
+			[
+				"allo",
+				"allowed_value"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"css_",
+				"css_validator"
+			],
+			[
+				"reg",
+				"regEx"
+			],
+			[
 				"expand",
 				"expand_to"
 			],
@@ -12,20 +44,12 @@
 				"property_spread"
 			],
 			[
-				"pro",
-				"property_compound"
-			],
-			[
 				"func",
 				"function_arguments"
 			],
 			[
 				"click",
 				"clickevent"
-			],
-			[
-				"css_",
-				"Css_Editor_Core"
 			],
 			[
 				"draw",
@@ -247,7 +271,7 @@
 			"file": "css_validator.js",
 			"settings":
 			{
-				"buffer_size": 2335,
+				"buffer_size": 8148,
 				"line_ending": "Unix"
 			}
 		},
@@ -263,7 +287,7 @@
 			"file": "CSSproperties.json",
 			"settings":
 			{
-				"buffer_size": 11262,
+				"buffer_size": 11512,
 				"line_ending": "Unix"
 			}
 		}
@@ -271,9 +295,13 @@
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 285.0,
+		"height": 54.0,
 		"selected_items":
 		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
@@ -287,7 +315,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -304,6 +332,10 @@
 	},
 	"file_history":
 	[
+		"/home/ber/Code/CSS-Designer/index.html",
+		"/home/ber/Code/CSS-Designer/jquery.contextmenu.css",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Emmet/Emmet.sublime-settings",
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/ber/bin/Materialien.py",
 		"/home/ber/Code/CSS-Designer/index.js",
 		"/home/ber/Code/CSS-Designer/Error.js",
@@ -380,7 +412,6 @@
 		"/home/ber/Desktop/kt_99999_kompetenztest",
 		"/mnt/SEfU/develop/web/lehrer.php",
 		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Default/Preferences.sublime-settings",
 		"/home/ber/Dropbox/Code/develop.SEfU.sublime-project",
 		"/home/ber/Projekt KT/K-Tests 2013/Anmeldeprogramm testen/help/Templates/Main.dwt",
@@ -428,10 +459,7 @@
 		"/home/ber/Code/SEfU/develop/config/ProjectConfiguration.class.php",
 		"/home/ber/Code/SEfU/develop/lib/vendor/symfony/lib/config/config/factories.yml",
 		"/home/ber/Code/SEfU/develop/config/error/error.html.php",
-		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Whitespaces/Default (Linux).sublime-keymap",
-		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/Whitespaces.sublime-settings",
-		"/home/ber/Desktop/changes.sql",
-		"/home/ber/43051867"
+		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Whitespaces/Default (Linux).sublime-keymap"
 	],
 	"find":
 	{
@@ -447,9 +475,40 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"object",
+			"valueclass",
+			"object",
+			"css_value",
+			"css",
+			"css_value",
+			"parnumber",
+			"part",
+			"css",
+			"how",
+			"what",
+			"who",
+			"how",
+			"what",
+			"value",
+			"array[i]",
+			"array",
+			"pair",
+			"j",
+			"RELFONTSIZE",
+			", 0,",
+			"0",
+			"numBetween",
+			"URI",
+			"ur",
+			"uri",
+			"RELFONTSIZE",
+			"$",
+			"css_properties",
+			"33px",
+			"not",
 			"URL",
 			"$URL",
 			"expander",
@@ -546,38 +605,7 @@
 			"3",
 			"sql_probanden",
 			"sql_erhebungen",
-			"SHA2",
-			"sha2",
-			"SHA2",
-			"sha2",
-			"SHA2",
-			"sha2",
-			"SHA2",
-			"_tryorder",
-			"firefox",
-			"webbrowser",
-			"browser",
-			"git.",
-			"Cols",
-			"Tabelle",
-			"Tabelle =",
-			"Cols =",
-			"Cols'",
-			"Cols",
-			"templateverwaltung",
-			"environment",
-			"routing",
-			"getUser(",
-			"'6', 'a",
-			"'7', ",
-			" '",
-			"'7',",
-			" '",
-			"'7'",
-			"test",
-			"develop",
-			"if",
-			"beitrag"
+			"SHA2"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -604,15 +632,15 @@
 					"file": "css_validator.js",
 					"settings":
 					{
-						"buffer_size": 2335,
+						"buffer_size": 8148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								378,
-								378
+								5492,
+								5492
 							]
 						],
 						"settings":
@@ -621,7 +649,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 882.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -648,7 +676,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1296.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -664,15 +692,15 @@
 					"file": "CSSproperties.json",
 					"settings":
 					{
-						"buffer_size": 11262,
+						"buffer_size": 11512,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7430,
-								7430
+								1004,
+								1004
 							]
 						],
 						"settings":
@@ -682,7 +710,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1721.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
