@@ -16,11 +16,17 @@ requirejs.config(
 
 );
 
-requirejs(
+/*requirejs(
 	['main'],
 	function (start) {
 		'use strict';
 
 		start();
+	}
+);*/
+requirejs(
+	['css_definition'],
+	function (def) {
+		console.log(def);
 	}
 );

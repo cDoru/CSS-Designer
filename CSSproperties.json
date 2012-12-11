@@ -64,7 +64,7 @@
         "font-family":              "$FONTS", // interne Klasse
         "font-style":               ["italic", "oblique", "normal"],
         "font-variant":             ["small-caps", "normal"],
-        "font-size":                $FONTISZE,
+        "font-size":                "$FONTISZE",
         "font-weight":              ["bold", "bolder", "lighter", "normal", "100", "200", "300", "400", "500", "600", "700", "800", "900"],
         "word-spacing":             "$ABSNUMERICAL",
         "letter-spacing":           "$ABSNUMERICAL",
@@ -99,7 +99,7 @@
         "border-left-style":        "$STYLE",
         "outline-width":            "$WIDTH",
         "outline-color":            "$COLOR",
-        "outline-style":            "$STYLE",        
+        "outline-style":            "$STYLE",
         "background-color":         "$COLOR",
         "background-image":         ["transparent", "$RESSOURCE"],
         "background-repeat":        ["repeat", "repeat-x", "repeat-y", "no-repeat"],
@@ -118,7 +118,7 @@
         "empty-cells":              ["show", "hide"],
         "speak-header":             ["always", "once"],
         "cursor":                   [
-            "auto", "default", "crosshair", "pointer", "move", "text", "wait", "help", "progress", 
+            "auto", "default", "crosshair", "pointer", "move", "text", "wait", "help", "progress",
             "n-resize", "ne-resize", "e-resize", "se-resize", "s-resize", "sw-resize", "w-resize", "nw-resize", "$RESSOURCE"
         ],
     // page_properties
@@ -133,9 +133,9 @@
         "font":         ["style", "variant", "weight", "size", "size-line-height", "family"],
         "margin":       {
             "1":    [["top", "right", "bottom", "left"]],
-            "2":    [["top", "bottom"], ["right", , "left"]],
-            "3":    ["top", ["right", , "left"], "bottom"],
-            "4":    ["top", "right", "bottom", "left"]
+            "2":    [["top", "bottom"], ["right", "left"]],
+            "3":    ["top",  ["right", "left"], "bottom"],
+            "4":    ["top",  "right", "bottom", "left"]
         },
         "padding":      {
             "1":    [
@@ -143,11 +143,11 @@
             ],
             "2":    [
                 ["top", "bottom"],
-                ["right", , "left"]
+                ["right", "left"]
             ],
             "3":    [
                 "top",
-                ["right", , "left"],
+                ["right", "left"],
                 "bottom"
             ],
             "4":    [
@@ -184,7 +184,7 @@
             ],
             "2":    [
                 ["\\border-top-color", "\\border-bottom-color"],
-                ["\\border-right-color", , "\\border-left-color"]
+                ["\\border-right-color", "\\border-left-color"]
             ],
             "3":    [
                 "\\border-top-color",

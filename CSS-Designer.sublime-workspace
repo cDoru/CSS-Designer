@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"CSS",
+				"CSS-Designer"
+			],
+			[
 				"value",
 				"valueclass"
 			],
@@ -276,6 +280,17 @@
 			}
 		},
 		{
+			"contents": "/*jslint es5: true, forin: true, indent: 4, plusplus: true, vars: true, regexp: true */\n/*global define, window */\n\ndefine(\n	['jquery'],\n	function ($) {\n		'use strict';\n\n		var url = 'http://localhost/CSS-Designer/CSSproperties.json';\n		url = 'CSSproperties.json';\n		return JSON.parse($.ajax(url, {async: false})\n				.responseText\n				.replace(/\\/\\*(.|\\n)*\\*\\//m, '')\n				.replace(/\\/\\/.*\\n/mg, ''));\n	}\n);\n",
+			"file": "css_definition.js",
+			"file_size": 531,
+			"file_write_time": 1355236628000000,
+			"settings":
+			{
+				"buffer_size": 406,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "Css_Editor_Core.js",
 			"settings":
 			{
@@ -284,10 +299,26 @@
 			}
 		},
 		{
-			"file": "CSSproperties.json",
+			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 11512,
+				"buffer_size": 504,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "require.js",
+			"settings":
+			{
+				"buffer_size": 79623,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test.js",
+			"settings":
+			{
+				"buffer_size": 728,
 				"line_ending": "Unix"
 			}
 		}
@@ -332,12 +363,14 @@
 	},
 	"file_history":
 	[
+		"/home/ber/Code/CSS-Designer/CSSproperties.test..json",
+		"/home/ber/Code/CSS-Designer/main.js",
+		"/home/ber/Code/CSS-Designer/index.js",
 		"/home/ber/Code/CSS-Designer/index.html",
 		"/home/ber/Code/CSS-Designer/jquery.contextmenu.css",
 		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Emmet/Emmet.sublime-settings",
 		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/ber/bin/Materialien.py",
-		"/home/ber/Code/CSS-Designer/index.js",
 		"/home/ber/Code/CSS-Designer/Error.js",
 		"/home/ber/Desktop/50583",
 		"/home/ber/Desktop/14909",
@@ -457,9 +490,7 @@
 		"/home/ber/Code/SEfU_old/develop_zumVergleich/lib/vendor/symfony/lib/config/sfProjectConfiguration.class.php",
 		"/home/ber/Code/SEfU_old/develop_zumVergleich/lib/vendor/symfony/lib/config/sfApplicationConfiguration.class.php",
 		"/home/ber/Code/SEfU/develop/config/ProjectConfiguration.class.php",
-		"/home/ber/Code/SEfU/develop/lib/vendor/symfony/lib/config/config/factories.yml",
-		"/home/ber/Code/SEfU/develop/config/error/error.html.php",
-		"/home/ber/Dropbox/Configs/sublime-text-2/Packages/Whitespaces/Default (Linux).sublime-keymap"
+		"/home/ber/Code/SEfU/develop/lib/vendor/symfony/lib/config/config/factories.yml"
 	],
 	"find":
 	{
@@ -624,7 +655,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -639,8 +670,8 @@
 						"selection":
 						[
 							[
-								5492,
-								5492
+								0,
+								0
 							]
 						],
 						"settings":
@@ -649,13 +680,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 882.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "css_definition.js",
+					"settings":
+					{
+						"buffer_size": 406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172,
+								172
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "Css_Editor_Core.js",
 					"settings":
 					{
@@ -680,34 +737,85 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 2,
-					"file": "CSSproperties.json",
+					"buffer": 3,
+					"file": "index.js",
 					"settings":
 					{
-						"buffer_size": 11512,
+						"buffer_size": 504,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1004,
-								1004
+								498,
+								498
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "require.js",
+					"settings":
+					{
+						"buffer_size": 79623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4958,
+								4958
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 11988.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "test.js",
+					"settings":
+					{
+						"buffer_size": 728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								611,
+								611
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -746,7 +854,7 @@
 		"cols":
 		[
 			0.0,
-			0.449098608208,
+			0.449755422658,
 			1.0
 		],
 		"rows":
